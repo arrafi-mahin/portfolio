@@ -102,4 +102,47 @@
 
 .bg-bar {
   background-color: #02858a !important;
+}
+
+#contact {
+  background-color: #252934;
+}
+#contact .triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid red;
+  border-right: 100px solid transparent;
+}
+
+.subtitle {
+  color: #04c2c9;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.contact-form {
+  align-items: center;
+  margin: auto;
+}
+.contact-form input {
+  margin: 2px 0;
+  padding: 5px;
+  background-color: #161718;
+  caret-color: #04c2c9;
+  color: #ffffff;
+  border: none !important;
+}
+.contact-form input:focus {
+  outline-width: 0;
+}
+.contact-form textarea {
+  padding: 5px;
+  margin: 2px 0;
+  background-color: #161718;
+  caret-color: #04c2c9;
+  color: #ffffff;
+  border: none !important;
+}
+.contact-form textarea:focus {
+  outline-width: 0;
 }/*# sourceMappingURL=style.css.map */
