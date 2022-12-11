@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&family=Raleway:wght@400;600;700&display=swap");
-
+body {
+  overflow-x: hidden;
+}
 .canvas-text {
   position: absolute;
   font-family: "Raleway", sans-serif;
@@ -108,14 +110,6 @@
 // Contact
 #contact {
   background-color: #252934;
-  // padding-top: 0 !important;
-
-  .triangle-bottomleft {
-    width: 0;
-    height: 0;
-    border-bottom: 100px solid red;
-    border-right: 100px solid transparent;
-  }
 }
 .subtitle {
   color: #04c2c9;
@@ -145,6 +139,36 @@
     border: none !important;
     &:focus {
       outline-width: 0;
+    }
+  }
+}
+.gallery {
+  padding: 50px 0 !important;
+  .gallery-card {
+    position: relative;
+    &:hover {
+      // transition: 0.4s;
+      .gallery-hover {
+        bottom: 0;
+        opacity: 1;
+        transition: 0.4s;
+        transform: scaleY(1.2);
+      }
+    }
+  }
+  .gallery-hover {
+    position: absolute;
+    padding: 10px 0;
+    background-color: #ffffff;
+    opacity: 0;
+    bottom: 0;
+    width: 100%;
+    .btn {
+      border: solid 1px #04c2c9;
+      color: #04c2c9;
+      &:focus {
+        outline: none !important;
+      }
     }
   }
 }
