@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&family=Raleway:wght@400;600;700&display=swap");
-body {
-  overflow-x: hidden;
-}
-
 .canvas-text {
   position: absolute;
   font-family: "Raleway", sans-serif;
@@ -171,4 +167,39 @@ body {
 }
 .gallery .gallery-hover .btn:focus {
   outline: none !important;
+}
+
+.footer-2 {
+  background-color: #161718 !important;
+}
+
+.footer-btn {
+  background-color: #e31b6d;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none !important;
+  color: #ffffff;
+  position: absolute;
+  top: -30px;
+}
+.footer-btn:hover {
+  color: #ffffff !important;
+}
+
+.social-icons {
+  margin: 60px 0;
+}
+
+.social-icon {
+  font-size: 22px;
+  padding: 15px 20px;
+  margin: 20px;
+  background-color: #252934;
+  color: #ffffff;
+}
+.social-icon:hover {
+  background-color: #04c2c9;
+  transition: 0.7s;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
